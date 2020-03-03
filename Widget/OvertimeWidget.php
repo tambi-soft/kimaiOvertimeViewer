@@ -27,8 +27,8 @@ class OvertimeWidget extends SimpleWidget
     {
         $this->repository = $repository;
 
-        $this->setId('DemoWidget');
-        $this->setTitle('Demo widget');
+        $this->setId('OvertimeWidget');
+        $this->setTitle('Overtime widget');
         $this->setOptions([
             'user' => $user->getUser(),
             'id' => '',
@@ -40,7 +40,7 @@ class OvertimeWidget extends SimpleWidget
         $options = parent::getOptions($options);
 
         if (empty($options['id'])) {
-            $options['id'] = 'DemoWidget';
+            $options['id'] = 'OvertimeWidget';
         }
 
         return $options;
