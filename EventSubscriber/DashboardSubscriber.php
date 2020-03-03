@@ -43,7 +43,7 @@ class DashboardSubscriber implements EventSubscriberInterface
     public function onDashboardEvent(DashboardEvent $event)
     {
         $section = new CompoundRow();
-        $section->setTitle('What a great crowd!');
+        $section->setTitle('Über-/Unterstunden');
         $section->setOrder(20);
 
         $section->addWidget($this->widget);
