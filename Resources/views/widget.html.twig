@@ -1,9 +1,9 @@
 {% import "macros/widgets.html.twig" as widgets %}
 
-<div class="box box-danger">
+<div class="box">
     <div class="box-header with-border">
-        <h3 class="box-title">Active Members</h3>
-
+        <h3 class="box-title">Übertrag aus Vormonat</h3>
+        <!--
         <div class="box-tools pull-right">
             <span class="label label-danger">{{ data.amount }} users</span>
             <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
@@ -11,7 +11,18 @@
             <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i>
             </button>
         </div>
+        -->
+        <h3 class="box-title pull-right">Diesen Monat noch zu arbeiten</h3>
     </div>
+    <div class="box-body">
+        <div>
+            test
+        </div>
+        <div class="pull-right">
+            test2
+        </div>
+    </div>
+    <!--
     <div class="box-body no-padding">
         <ul class="users-list clearfix">
             {% for user in data.users %}
@@ -23,7 +34,10 @@
             {% endfor %}
         </ul>
     </div>
+    -->
+    <!--
     <div class="box-footer text-center">
         <a href="{{ path('admin_user') }}" class="uppercase">View All Users</a>
     </div>
+    -->
 </div>
