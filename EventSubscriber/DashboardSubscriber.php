@@ -12,17 +12,17 @@ namespace KimaiPlugin\DemoBundle\EventSubscriber;
 
 use App\Event\DashboardEvent;
 use App\Widget\Type\CompoundRow;
-use KimaiPlugin\DemoBundle\Widget\DemoWidget;
+use KimaiPlugin\DemoBundle\Widget\OvertimeWidget;
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 
 class DashboardSubscriber implements EventSubscriberInterface
 {
     /**
-     * @var DemoWidget
+     * @var OvertimeWidget
      */
     private $widget;
 
-    public function __construct(DemoWidget $widget)
+    public function __construct(OvertimeWidget $widget)
     {
         $this->widget = $widget;
     }

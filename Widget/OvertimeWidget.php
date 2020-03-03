@@ -16,7 +16,7 @@ use App\Repository\UserRepository;
 use App\Security\CurrentUser;
 use App\Widget\Type\SimpleWidget;
 
-class DemoWidget extends SimpleWidget
+class OvertimeWidget extends SimpleWidget
 {
     /**
      * @var UserRepository
